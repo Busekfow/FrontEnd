@@ -1,0 +1,26 @@
+@import '../../node_modules/modern-normalize/modern-normalize.css';
+@import './base/fonts';
+
+/* ---------------------------------- utils --------------------------------- */
+@import './utils/vars';
+@import './utils/hidden';
+@import './utils/mixin';
+/* ---------------------------------- base ---------------------------------- */
+@import './base/reset';
+@import './base/common';
+/* ------------------------------- components ------------------------------- */
+@import './components/container';
+/* --------------------------------- layouts -------------------------------- */
+@import './layouts/header';
+@import './layouts/slider';
+@import './layouts/gallery-home';
+@import './layouts/gallery-lib';
+@import './layouts/pagination';
+@import './layouts/footer';
+@import './layouts/up-btn';
+/* ---------------------------------- modal --------------------------------- */
+@import './modal/movie-modal';
+@import './modal/team-modal';
+@import './modal/sign-in';
+@import './modal/sign-up';
+@import './layouts/dark-theme';

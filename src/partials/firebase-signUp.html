@@ -1,0 +1,69 @@
+<div class="signUp backdrop is-hidden">
+  <div class="signUp-modal" data-toggle="modal">
+    <button type="button" class="modal-signUp-close" name="signUp">
+      <svg class="modal-close-icon" width="20" height="20">
+        <use href="/src/images/icons.svg#icon-close"></use>
+      </svg>
+    </button>
+    <div class="signUp-container">
+      <form class="sign-up">
+        <h2 class="SignUp-title">Create an account</h2>
+        <div>
+          <label class="SignUp-name" for="name">Name</label>
+          <div class="signUp-form-wrapper">
+            <input
+              type="text"
+              id="name"
+              class="sign-up-name"
+              autocomplete="off"
+            />
+            <svg class="signUp-form-icon" width="18" height="18">
+              <use href="/src/images/icons.svg#icon-user"></use>
+            </svg>
+          </div>
+        </div>
+        <div>
+          <label class="SignUp-email" for="email">Email</label>
+          <div class="signUp-form-wrapper">
+            <input
+              type="email"
+              name="email"
+              class="sign-up-mail"
+              autocomplete="off"
+              required
+            />
+            <svg class="signUp-form-icon" width="18" height="18">
+              <use href="/src/images/icons.svg#icon-email"></use>
+            </svg>
+          </div>
+        </div>
+        <div>
+          <label class="SignUp-password" for="password">Password</label>
+          <div class="signUp-form-wrapper">
+            <input
+              type="password"
+              autocomplete="off"
+              minlength="6"
+              class="sign-up-password"
+              required
+            />
+            <svg class="signUp-form-icon" width="18" height="18">
+              <use href="/src/images/icons.svg#icon-password"></use>
+            </svg>
+          </div>
+        </div>
+        <button class="SignUp-btn-submit" type="submit">Sign up</button>
+      </form>
+      <div class="signIn-box">
+        <button
+          type="button"
+          class="js-signIn signIn-open"
+          data-target="signIn"
+        >
+          Sign In
+        </button>
+        <p class="sign-up-text">with your MovieWall account</p>
+      </div>
+    </div>
+  </div>
+</div>
